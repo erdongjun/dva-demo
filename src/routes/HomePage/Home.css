@@ -1,0 +1,13 @@
+.carousel{
+  background-color: #fff;
+}
+.outer{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.imgStyle{
+  width: 100%;
+  vertical-align: top;
+}

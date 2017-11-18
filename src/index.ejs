@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+  <meta name="format-detection" content="telephone=no,email=no" />
+  <meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <!--<script type="text/javascript" src="js/antm-viewport.min.js"></script>-->
+  <script src="//os.alipayobjects.com/rmsportal/lvEQQbNgHsIxVfXLkmuX.js"></script>
+  <title>联宠采购商城</title>
+  <script>
+    //引入Promise 的fallBack支持(部分安卓手机不支持Promise);
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+  </script>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+<script>
+  //FastClick 消除在移动浏览器上触发click时间与一个物理敲击之间的300ms延迟。
+  if ('addEventListener' in document) {
+    window.addEventListener('load', function () {
+      FastClick.attach(document.body);
+    }, false);
+  }
+</script>
+</body>
+</html>

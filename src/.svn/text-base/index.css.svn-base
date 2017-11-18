@@ -1,0 +1,11 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+:global(#root){
+  padding-top: 88px;
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: #f4f4f4;
+}
